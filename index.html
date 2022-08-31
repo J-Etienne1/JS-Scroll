@@ -2,20 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scroll Project</title>
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- header-->
     <header id="home">
-      <!-- nav bar -->
+      <!-- navbar -->
       <nav id="nav">
-        <div class="nav-centre">
+        <div class="nav-center">
           <!-- nav header -->
           <div class="nav-header">
-            <img src="logo.svg" alt="logo" class="logo" />
+            <img src="./logo.svg" class="logo" alt="logo" />
             <button class="nav-toggle">
               <i class="fas fa-bars"></i>
             </button>
@@ -41,47 +45,46 @@
       </nav>
       <!-- banner -->
       <div class="banner">
-        <h1>Scroll Project</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-          doloremque cumque commodi sequi odit quod atque. Dignissimos, iste
-          tempore laborum illo quasi, doloremque quis deleniti inventore minima
-          ullam soluta accusamus?
-        </p>
-        <a href="#tours" class="scroll-link btn btn-white">Explore tours</a>
+        <div class="container">
+          <h1>scroll project</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+            architecto. Impedit placeat rem dolore, ipsa corrupti iure
+            accusamus, ullam quo porro eos ipsum repellendus explicabo incidunt
+            earum sunt! Odio, unde.
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">explore tours</a>
+        </div>
       </div>
     </header>
     <!-- about -->
     <section id="about" class="section">
       <div class="title">
-        <h2>About <span>Us</span></h2>
+        <h2>about <span>us</span></h2>
       </div>
     </section>
     <!-- services -->
     <section id="services" class="section">
       <div class="title">
-        <h2>Our <span>Services</span></h2>
+        <h2>our <span>services</span></h2>
       </div>
     </section>
-    <!-- tours -->
+    <!-- contact -->
     <section id="tours" class="section">
       <div class="title">
-        <h2>Featured <span>Tours</span></h2>
+        <h2>featured <span>tours</span></h2>
       </div>
     </section>
     <!-- footer -->
     <footer class="section">
       <p>
         copyright &copy; backroads travel tours company
-        <span id="date">  </span>
-        .all rights reserved
+        <span id="date"></span>. all rights reserved
       </p>
     </footer>
-    <!-- back to top link-->
-    <a href="#home" class="scroll-link top-link">
-        <i class="fas fa-arrow-up"></i>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
     </a>
-
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
